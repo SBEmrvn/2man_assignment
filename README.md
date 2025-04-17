@@ -1,5 +1,18 @@
 # 2man_assignment
 
+
+![Creation of sales table](https://github.com/user-attachments/assets/0210790c-1986-4ca4-9a40-f5cf50277cec)
+
+Technical Details
+Created in Oracle Database 21c Enterprise Edition
+
+Uses Oracle's VARCHAR2 data type for text fields
+
+NUMBER type allows for both integers and decimals
+
+DATE type stores date and time information
+
+
 1. LAG and LEAD with Comparison
 ![Select query LAG AND LEAD ](https://github.com/user-attachments/assets/25795934-5c05-494f-aa21-350c92c15df3)
 
