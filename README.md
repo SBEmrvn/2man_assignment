@@ -1,6 +1,6 @@
 # 2man_assignment
 
-
+A)TABLE CREATION SCRIPTS
 ![Creation of sales table](https://github.com/user-attachments/assets/0210790c-1986-4ca4-9a40-f5cf50277cec)
 
 Technical Details
@@ -11,6 +11,8 @@ Uses Oracle's VARCHAR2 data type for text fields
 NUMBER type allows for both integers and decimals
 
 DATE type stores date and time information
+
+
 
 
 1. LAG and LEAD with Comparison
