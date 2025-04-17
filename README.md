@@ -1,4 +1,6 @@
 # 2man_assignment
+
+
 ![Select query LAG AND LEAD ](https://github.com/user-attachments/assets/25795934-5c05-494f-aa21-350c92c15df3)
 
 Explanation: This query uses:
@@ -10,6 +12,8 @@ LEAD() to see the next sale amount
 A CASE statement to compare current sale to previous
 
 Real-Life Application: A financial analyst could use this to track sales trends day-by-day, identifying when sales are increasing or decreasing compared to the previous transaction. This helps spot unusual patterns that might indicate problems or opportunities.
+
+5.RANK and DENSE_RANK Comparison
 ![RANKING](https://github.com/user-attachments/assets/75172c4c-b0ee-409a-a9ad-8c58a8ecbe81)
 Explanation: This demonstrates two ranking methods:
 
