@@ -1,6 +1,28 @@
 # 2man_assignment
 
-A)TABLE CREATION SCRIPTS
+# SQL Window Functions Project: Hands-On Employee Data Analysis in Action
+
+# Course Assignment: Exploring SQL Window Functions
+# Group name: 2man_assignment
+# Contributors: BUCAGU Elisa Shedrick (26939) & HIRWA Marcellin (26936)
+# Instructor GitHub Username: ericmaniraguha
+
+# Project Overview / Introduction
+In this project, we explore the power and flexibility of SQL Window Functions by applying them to a structured dataset of employees. Window functions provide advanced analytical capabilities in SQL that go beyond basic aggregation and filtering. Unlike traditional aggregate functions, window functions allow access to both current and neighboring rows, making them ideal for comparisons, rankings, trend analysis, and running totals — all without collapsing rows.
+
+This assignment covers real-world use cases of the following key SQL window functions:
+
+- LAG() and LEAD() for comparing previous and next rows
+
+- RANK(), DENSE_RANK(), and ROW_NUMBER() for ranking within partitions
+
+- MAX() with OVER() for aggregate insights within and across categories
+
+We work with a sample employees dataset, analyzing salaries, departments, and joining dates to simulate realistic business queries — like identifying top earners, earliest joiners, and departmental trends.
+
+--
+* TABLE CREATION SCRIPTS
+  
 ![Creation of sales table](https://github.com/user-attachments/assets/0210790c-1986-4ca4-9a40-f5cf50277cec)
 
 Technical Details
@@ -12,7 +34,12 @@ NUMBER type allows for both integers and decimals
 
 DATE type stores date and time information
 
+* Data Insertion into Sales Table
+![Insert of data into sales table](https://github.com/user-attachments/assets/6e1d0e03-57bc-4959-8bbb-f6b4e08c233d)
 
+Explanation: This demonstrates inserting 8 records into the sales table with various products across different categories, regions, amounts, and dates.
+
+Real-Life Application: In a supermarket chain, this would represent the daily sales data entry process. Each time a product is sold at any store location, a new record would be inserted, building the dataset for future analysis and reporting.
 
 
 1. LAG and LEAD with Comparison
@@ -69,4 +96,17 @@ Explanation: This query shows:
 - While displaying all individual sales records
 
 Real-Life Application: A regional sales manager could use this to compare each product's performance against the best-selling item in its category and against the highest sale overall. For example, seeing that a $900 oven sale is below the $1500 category maximum (fridge) helps identify top performers.
+
+## Conclusion
+Through this project, we demonstrated how SQL window functions enable complex analytics with concise, readable SQL code. These functions offer critical tools for data analysts and engineers to:
+
+Compare rows without subqueries
+
+Rank records accurately within categories
+
+Perform flexible aggregations over partitions
+
+Generate insights that would be difficult or inefficient using basic SQL alone
+
+By applying these techniques, we gained a deeper understanding of how window functions can be used in practical business scenarios, such as HR reporting, sales analysis, and performance tracking. The final queries and results showcase the real power of SQL as a data analysis language — capable of producing rich insights with precision and speed.
 
